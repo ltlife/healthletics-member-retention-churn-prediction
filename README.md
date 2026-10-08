@@ -232,4 +232,58 @@ healthletics-member-retention-churn-prediction/
 │   └── Random Forest training script
 │
 ├── README.md
-└── requirements.txt
+└── requirements.txt,
+---
+
+## Reproducibility
+
+The repository includes:
+
+- Jupyter Notebook containing the project workflow
+- Source code
+- Saved Random Forest model
+- Requirements file
+- Final technical and business presentations
+- Final capstone report
+
+The project uses a stratified train/test split and fixed model configurations to support reproducibility.
+
+---
+
+## Project Limitations
+
+This project is a proof-of-concept and has several limitations:
+
+- The dataset is publicly available and is not actual Healthletics member data.
+- The dataset may not fully represent Healthletics' member population or business processes.
+- Some demographic groups have relatively small sample sizes.
+- Correlation and feature importance do not necessarily establish causation.
+- Further validation is required before using the model in a live business environment.
+
+---
+
+## Future Development
+
+Future development may integrate churn prediction into a broader Healthletics gym management and member analytics system.
+
+Potential capabilities include:
+
+- Automated member risk scoring
+- Member engagement monitoring
+- Retention alerts
+- Membership analytics
+- Attendance tracking
+- Renewal prediction
+- Coach and management dashboards
+- Data-driven retention campaigns
+
+---
+
+## Author
+
+**Lynette Suller**  
+Healthletics Fitness Club  
+AI & Machine Learning Capstone Project
+
+**Project Title:**  
+*Healthletics: AI-Powered Member Retention and Churn Prediction System*
